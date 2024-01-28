@@ -1,13 +1,17 @@
 const express = require('express');
 const app = express();
+const cors = require('cors')
 
 const dataKamar = require('./datas/dataKamar')
 
 const port = 3000;
 
+app.use(cors())
+
 app.get('/',(req, res) => {
     res.status(200).send('GENERATE DATA KAMAR : /deluxe, /executive, /superior, /standar')
 })
+
 
 app.get('/kamar/:nama', (req,res) => {
     const nama = req.params.nama;
