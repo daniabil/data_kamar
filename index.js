@@ -1,12 +1,17 @@
 const express = require('express');
-const app = express();
 const cors = require('cors')
 
 const dataKamar = require('./datas/dataKamar')
 
+const app = express();
 const port = 3000;
 
 app.use(cors())
+
+app.use((req, res) => {
+    console.log('tes')
+    res.status(404).send("404: Page not found");
+});
 
 app.get('/',(req, res) => {
     res.status(200).send('GENERATE DATA KAMAR : /deluxe, /executive, /superior, /standar')
@@ -39,11 +44,6 @@ app.get('/kamar/:nama', (req,res) => {
         res.status(404).send('Server ERROR');
     }
 }) 
-
-app.use((req, res) => {
-    console.log('tes')
-    res.status(404).send("404: Page not found");
-});
 
 app.listen(port, () => {
     console.log(`Server jalan di Port ${port}`)
