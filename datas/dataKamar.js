@@ -1,482 +1,308 @@
 deluxe = [
     {
-        "tipe": "deluxe",
-        "nama_kamar": "Deluxe Room 1",
+        "nama_kamar": "Deluxe Suite",
         "rating": 4.6,
-        "harga": 1600000,
+        "harga": 3400000,
         "kode_kamar": "DLX001",
-        "gambar": "https://media.istockphoto.com/id/1178809236/id/foto/kamar-tidur-yang-nyaman-dalam-warna-warna-hangat-dengan-lukisan-meja-pouf-dan-kotak-kotak.jpg?s=612x612&w=0&k=20&c=6EZpGr4k4EiaEs1XhubHwcolm2QSnPrxBDrCR3o5JI8=https://media.istockphoto.com/id/1178809236/id/foto/kamar-tidur-yang-nyaman-dalam-warna-warna-hangat-dengan-lukisan-meja-pouf-dan-kotak-kotak.jpg?s=612x612&w=0&k=20&c=6EZpGr4k4EiaEs1XhubHwcolm2QSnPrxBDrCR3o5JI8=https://media.istockphoto.com/id/1178809236/id/foto/kamar-tidur-yang-nyaman-dalam-warna-warna-hangat-dengan-lukisan-meja-pouf-dan-kotak-kotak.jpg?s=612x612&w=0&k=20&c=6EZpGr4k4EiaEs1XhubHwcolm2QSnPrxBDrCR3o5JI8="
+        "gambar": "https://images.unsplash.com/photo-1566665797739-1674de7a421a?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YmVkcm9vbSUyMGhvdGVsfGVufDB8fDB8fHww"
     },
     {
-        "tipe": "deluxe",
-        "nama_kamar": "Deluxe Room 2",
+        "nama_kamar": "Grand Deluxe Room",
         "rating": 4.8,
-        "harga": 1800000,
+        "harga": 4200000,
         "kode_kamar": "DLX002",
-        "gambar": 2
+        "gambar": "https://images.unsplash.com/photo-1631049552057-403cdb8f0658?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3Dhttps://images.unsplash.com/photo-1631049552057-403cdb8f0658?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3Dhttps://images.unsplash.com/photo-1631049552057-403cdb8f0658?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3Dhttps://images.unsplash.com/photo-1631049552057-403cdb8f0658?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
-        "tipe": "deluxe",
-        "nama_kamar": "Deluxe Room 3",
+        "nama_kamar": "Premier Deluxe Suite",
         "rating": 4.7,
-        "harga": 1700000,
+        "harga": 3800000,
         "kode_kamar": "DLX003",
-        "gambar": 3
+        "gambar": "https://images.unsplash.com/photo-1540518614846-7eded433c457?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
-        "tipe": "deluxe",
-        "nama_kamar": "Deluxe Room 4",
-        "rating": 4.9,
-        "harga": 2000000,
+        "nama_kamar": "Deluxe Ocean View Room",
+        "rating": 4.6,
+        "harga": 3300000,
         "kode_kamar": "DLX004",
-        "gambar": 4
+        "gambar": "https://images.unsplash.com/photo-1598928636135-d146006ff4be?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
-        "tipe": "deluxe",
-        "nama_kamar": "Deluxe Room 5",
+        "nama_kamar": "Deluxe King Room",
         "rating": 4.7,
-        "harga": 1900000,
+        "harga": 3500000,
         "kode_kamar": "DLX005",
-        "gambar": 5
+        "gambar": "https://plus.unsplash.com/premium_photo-1661963692705-befe203ba36b?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGJlZHJvb20lMjBob3RlbHxlbnwwfHwwfHx8MA%3D%3D"
     },
     {
-        "tipe": "deluxe",
-        "nama_kamar": "Deluxe Room 6",
+        "nama_kamar": "Deluxe Twin Room",
         "rating": 4.5,
-        "harga": 1500000,
+        "harga": 3000000,
         "kode_kamar": "DLX006",
-        "gambar": 6
+        "gambar": "https://images.unsplash.com/photo-1618773928121-c32242e63f39?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDZ8fGJlZHJvb20lMjBob3RlbHxlbnwwfHwwfHx8MA%3D%3D"
     },
     {
-        "tipe": "deluxe",
-        "nama_kamar": "Deluxe Room 7",
+        "nama_kamar": "Executive Deluxe Suite",
         "rating": 4.6,
-        "harga": 1700000,
+        "harga": 3600000,
         "kode_kamar": "DLX007",
-        "gambar": 7
+        "gambar": "https://images.unsplash.com/photo-1596206084302-066417d304ff?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
-        "tipe": "deluxe",
-        "nama_kamar": "Deluxe Room 8",
+        "nama_kamar": "Deluxe Elegance Suite",
         "rating": 4.8,
-        "harga": 1950000,
+        "harga": 4300000,
         "kode_kamar": "DLX008",
-        "gambar": 8
+        "gambar": "https://images.unsplash.com/photo-1631049035182-249067d7618e?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
-        "tipe": "deluxe",
-        "nama_kamar": "Deluxe Room 9",
-        "rating": 4.6,
-        "harga": 1750000,
-        "kode_kamar": "DLX009",
-        "gambar": 9
-    },
-    {
-        "tipe": "deluxe",
-        "nama_kamar": "Deluxe Room 10",
+        "nama_kamar": "Deluxe Tranquil Haven",
         "rating": 4.7,
-        "harga": 1850000,
+        "harga": 3250000,
         "kode_kamar": "DLX010",
-        "gambar": 10
+        "gambar": "https://images.unsplash.com/photo-1595526114035-0d45ed16cfbf?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Njd8fGJlZHJvb20lMjBob3RlbHxlbnwwfHwwfHx8MA%3D%3D"
     },
     {
-        "tipe": "deluxe",
-        "nama_kamar": "Deluxe Room 11",
-        "rating": 4.8,
-        "harga": 2000000,
+        "nama_kamar": "Exclusive Deluxe Sanctuary",
+        "rating": 4.6,
+        "harga": 3400000,
         "kode_kamar": "DLX011",
-        "gambar": 11
+        "gambar": "https://images.unsplash.com/photo-1618221118493-9cfa1a1c00da?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
-    {
-        "tipe": "deluxe",
-        "nama_kamar": "Deluxe Room 12",
-        "rating": 4.5,
-        "harga": 1600000,
-        "kode_kamar": "DLX012",
-        "gambar": 12
-    }
 ];
 
 
 
-
-executive = [
+suite = [
     {
-        "nama_kamar": "Executive Room 1",
-        "rating": 4.8,
-        "harga": 2500000,
-        "kode_kamar": "EX001"
-    },
-    {
-        "nama_kamar": "Executive Room 2",
-        "rating": 4.9,
-        "harga": 2700000,
-        "kode_kamar": "EX002"
-    },
-    {
-        "nama_kamar": "Executive Room 3",
+        "nama_kamar": "Executive Suite",
         "rating": 4.7,
-        "harga": 2400000,
-        "kode_kamar": "EX003"
+        "harga": 3500000,
+        "kode_kamar": "SUITE001",
+        "gambar": 1
     },
     {
-        "nama_kamar": "Executive Room 4",
-        "rating": 4.8,
-        "harga": 2550000,
-        "kode_kamar": "EX004"
+        "nama_kamar": "Luxury Suite",
+        "rating": 4.5,
+        "harga": 3000000,
+        "kode_kamar": "SUITE002",
+        "gambar": 2
     },
     {
-        "nama_kamar": "Executive Room 5",
-        "rating": 4.9,
-        "harga": 2700000,
-        "kode_kamar": "EX005"
+        "nama_kamar": "Presidential Suite",
+        "rating": 4.4,
+        "harga": 2900000,
+        "kode_kamar": "SUITE003",
+        "gambar": 3
     },
     {
-        "nama_kamar": "Executive Room 6",
-        "rating": 4.7,
-        "harga": 2400000,
-        "kode_kamar": "EX006"
+        "nama_kamar": "Honeymoon Suite",
+        "rating": 4.5,
+        "harga": 3100000,
+        "kode_kamar": "SUITE004",
+        "gambar": 4
     },
     {
-        "nama_kamar": "Executive Room 7",
-        "rating": 4.8,
-        "harga": 2550000,
-        "kode_kamar": "EX007"
+        "nama_kamar": "Royal Suite",
+        "rating": 4.6,
+        "harga": 3300000,
+        "kode_kamar": "SUITE005",
+        "gambar": 5
     },
     {
-        "nama_kamar": "Executive Room 8",
-        "rating": 4.9,
-        "harga": 2700000,
-        "kode_kamar": "EX008"
+        "nama_kamar": "Deluxe Suite",
+        "rating": 4.4,
+        "harga": 2900000,
+        "kode_kamar": "SUITE006",
+        "gambar": 6
     },
     {
-        "nama_kamar": "Executive Room 9",
-        "rating": 4.7,
-        "harga": 2400000,
-        "kode_kamar": "EX009"
+        "nama_kamar": "Grand Suite",
+        "rating": 4.5,
+        "harga": 3000000,
+        "kode_kamar": "SUITE007",
+        "gambar": 7
     },
     {
-        "nama_kamar": "Executive Room 10",
-        "rating": 4.8,
-        "harga": 2550000,
-        "kode_kamar": "EX010"
+        "nama_kamar": "Family Suite",
+        "rating": 4.4,
+        "harga": 2800000,
+        "kode_kamar": "SUITE008",
+        "gambar": 8
     },
     {
-        "nama_kamar": "Executive Room 11",
-        "rating": 4.9,
-        "harga": 2700000,
-        "kode_kamar": "EX011"
+        "nama_kamar": "Luxury Oceanfront Suite",
+        "rating": 4.6,
+        "harga": 3800000,
+        "kode_kamar": "SUITE009",
+        "gambar": 9
     },
     {
-        "nama_kamar": "Executive Room 12",
-        "rating": 4.7,
-        "harga": 2400000,
-        "kode_kamar": "EX012"
-    },
-    {
-        "nama_kamar": "Executive Room 13",
-        "rating": 4.8,
-        "harga": 2550000,
-        "kode_kamar": "EX013"
-    },
-    {
-        "nama_kamar": "Executive Room 14",
-        "rating": 4.9,
-        "harga": 2700000,
-        "kode_kamar": "EX014"
-    },
-    {
-        "nama_kamar": "Executive Room 15",
-        "rating": 4.7,
-        "harga": 2400000,
-        "kode_kamar": "EX015"
-    },
-    {
-        "nama_kamar": "Executive Room 16",
-        "rating": 4.8,
-        "harga": 2550000,
-        "kode_kamar": "EX016"
-    },
-    {
-        "nama_kamar": "Executive Room 17",
-        "rating": 4.9,
-        "harga": 2700000,
-        "kode_kamar": "EX017"
-    },
-    {
-        "nama_kamar": "Executive Room 18",
-        "rating": 4.7,
-        "harga": 2400000,
-        "kode_kamar": "EX018"
-    },
-    {
-        "nama_kamar": "Executive Room 19",
-        "rating": 4.8,
-        "harga": 2550000,
-        "kode_kamar": "EX019"
-    },
-    {
-        "nama_kamar": "Executive Room 20",
-        "rating": 4.9,
-        "harga": 2700000,
-        "kode_kamar": "EX020"
+        "nama_kamar": "Panoramic View Suite",
+        "rating": 4.6,
+        "harga": 3000000,
+        "kode_kamar": "SUITE010",
+        "gambar": 10
     }
 ]
+
 
 
 
 superior = [
     {
-        "nama_kamar": "Superior Room 1",
-        "rating": 4.3,
-        "harga": 1200000,
-        "kode_kamar": "SU001"
+        "nama_kamar": "Superior Deluxe Room",
+        "rating": 4.9,
+        "harga": 5000000,
+        "kode_kamar": "SPR001",
+        "gambar_kamar": 1
     },
     {
-        "nama_kamar": "Superior Room 2",
-        "rating": 4.4,
-        "harga": 1250000,
-        "kode_kamar": "SU002"
+        "nama_kamar": "Executive Superior Suite",
+        "rating": 5.0,
+        "harga": 6000000,
+        "kode_kamar": "SPR002",
+        "gambar_kamar": 2
     },
     {
-        "nama_kamar": "Superior Room 3",
-        "rating": 4.5,
-        "harga": 1300000,
-        "kode_kamar": "SU003"
+        "nama_kamar": "Premier Superior Room",
+        "rating": 4.8,
+        "harga": 4950000,
+        "kode_kamar": "SPR003",
+        "gambar_kamar": 3
     },
     {
-        "nama_kamar": "Superior Room 4",
-        "rating": 4.3,
-        "harga": 1200000,
-        "kode_kamar": "SU004"
+        "nama_kamar": "Grand Superior Chamber",
+        "rating": 5.0,
+        "harga": 5900000,
+        "kode_kamar": "SPR004",
+        "gambar_kamar": 4
     },
     {
-        "nama_kamar": "Superior Room 5",
-        "rating": 4.4,
-        "harga": 1250000,
-        "kode_kamar": "SU005"
+        "nama_kamar": "Luxury Superior Retreat",
+        "rating": 4.9,
+        "harga": 5650000,
+        "kode_kamar": "SPR005",
+        "gambar_kamar": 5
     },
     {
-        "nama_kamar": "Superior Room 6",
-        "rating": 4.5,
-        "harga": 1300000,
-        "kode_kamar": "SU006"
+        "nama_kamar": "Superior King Oasis",
+        "rating": 4.8,
+        "harga": 5050000,
+        "kode_kamar": "SPR006",
+        "gambar_kamar": 6
     },
     {
-        "nama_kamar": "Superior Room 7",
-        "rating": 4.3,
-        "harga": 1200000,
-        "kode_kamar": "SU007"
+        "nama_kamar": "Elite Superior Accommodation",
+        "rating": 5.0,
+        "harga": 6300000,
+        "kode_kamar": "SPR007",
+        "gambar_kamar": 7
     },
     {
-        "nama_kamar": "Superior Room 8",
-        "rating": 4.4,
-        "harga": 1250000,
-        "kode_kamar": "SU008"
+        "nama_kamar": "Signature Superior Residency",
+        "rating": 4.9,
+        "harga": 5450000,
+        "kode_kamar": "SPR008",
+        "gambar_kamar": 8
     },
     {
-        "nama_kamar": "Superior Room 9",
-        "rating": 4.5,
-        "harga": 1300000,
-        "kode_kamar": "SU009"
+        "nama_kamar": "Platinum Superior Haven",
+        "rating": 4.8,
+        "harga": 5000000,
+        "kode_kamar": "SPR009",
+        "gambar_kamar": 9
     },
     {
-        "nama_kamar": "Superior Room 10",
-        "rating": 4.3,
-        "harga": 1200000,
-        "kode_kamar": "SU010"
-    },
-    {
-        "nama_kamar": "Superior Room 11",
-        "rating": 4.4,
-        "harga": 1250000,
-        "kode_kamar": "SU011"
-    },
-    {
-        "nama_kamar": "Superior Room 12",
-        "rating": 4.5,
-        "harga": 1300000,
-        "kode_kamar": "SU012"
-    },
-    {
-        "nama_kamar": "Superior Room 13",
-        "rating": 4.3,
-        "harga": 1200000,
-        "kode_kamar": "SU013"
-    },
-    {
-        "nama_kamar": "Superior Room 14",
-        "rating": 4.4,
-        "harga": 1250000,
-        "kode_kamar": "SU014"
-    },
-    {
-        "nama_kamar": "Superior Room 15",
-        "rating": 4.5,
-        "harga": 1300000,
-        "kode_kamar": "SU015"
-    },
-    {
-        "nama_kamar": "Superior Room 16",
-        "rating": 4.3,
-        "harga": 1200000,
-        "kode_kamar": "SU016"
-    },
-    {
-        "nama_kamar": "Superior Room 17",
-        "rating": 4.4,
-        "harga": 1250000,
-        "kode_kamar": "SU017"
-    },
-    {
-        "nama_kamar": "Superior Room 18",
-        "rating": 4.5,
-        "harga": 1300000,
-        "kode_kamar": "SU018"
-    },
-    {
-        "nama_kamar": "Superior Room 19",
-        "rating": 4.3,
-        "harga": 1200000,
-        "kode_kamar": "SU019"
-    },
-    {
-        "nama_kamar": "Superior Room 20",
-        "rating": 4.4,
-        "harga": 1250000,
-        "kode_kamar": "SU020"
+        "nama_kamar": "Exclusive Superior Retreat",
+        "rating": 5.0,
+        "harga": 6400000,
+        "kode_kamar": "SPR010",
+        "gambar_kamar": 10
     }
 ]
+
 
 
 standar = [
     {
-        "nama_kamar": "Standar Room 1",
-        "rating": 4.0,
+        "nama_kamar": "Standard Double Room",
+        "rating": 3.2,
+        "harga": 2000000,
+        "kode_kamar": "STD001",
+        "gambar_kamar": 1
+    },
+    {
+        "nama_kamar": "Classic Standard Room",
+        "rating": 3.2,
+        "harga": 950000,
+        "kode_kamar": "STD002",
+        "gambar_kamar": 2
+    },
+    {
+        "nama_kamar": "Standard Twin Room",
+        "rating": 3.4,
+        "harga": 2980000,
+        "kode_kamar": "STD003",
+        "gambar_kamar": 3
+    },
+    {
+        "nama_kamar": "Traditional Standard Chamber",
+        "rating": 3.3,
+        "harga": 2050000,
+        "kode_kamar": "STD004",
+        "gambar_kamar": 4
+    },
+    {
+        "nama_kamar": "Basic Standard Accommodation",
+        "rating": 3.4,
+        "harga": 2970000,
+        "kode_kamar": "STD005",
+        "gambar_kamar": 5
+    },
+    {
+        "nama_kamar": "Standard Queen Room",
+        "rating": 3.2,
         "harga": 1000000,
-        "kode_kamar": "ST001"
+        "kode_kamar": "STD006",
+        "gambar_kamar": 6
     },
     {
-        "nama_kamar": "Standar Room 2",
-        "rating": 4.1,
-        "harga": 1050000,
-        "kode_kamar": "ST002"
+        "nama_kamar": "Cozy Standard Retreat",
+        "rating": 3.3,
+        "harga": 1930000,
+        "kode_kamar": "STD007",
+        "gambar_kamar": 7
     },
     {
-        "nama_kamar": "Standar Room 3",
-        "rating": 4.2,
-        "harga": 1100000,
-        "kode_kamar": "ST003"
+        "nama_kamar": "Standard Single Room",
+        "rating": 3.2,
+        "harga": 980000,
+        "kode_kamar": "STD008",
+        "gambar_kamar": 8
     },
     {
-        "nama_kamar": "Standar Room 4",
-        "rating": 4.0,
-        "harga": 1000000,
-        "kode_kamar": "ST004"
+        "nama_kamar": "Comfort Standard Suite",
+        "rating": 3.2,
+        "harga": 950000,
+        "kode_kamar": "STD009",
+        "gambar_kamar": 9
     },
     {
-        "nama_kamar": "Standar Room 5",
-        "rating": 4.1,
-        "harga": 1050000,
-        "kode_kamar": "ST005"
-    },
-    {
-        "nama_kamar": "Standar Room 6",
-        "rating": 4.2,
-        "harga": 1100000,
-        "kode_kamar": "ST006"
-    },
-    {
-        "nama_kamar": "Standar Room 7",
-        "rating": 4.0,
-        "harga": 1000000,
-        "kode_kamar": "ST007"
-    },
-    {
-        "nama_kamar": "Standar Room 8",
-        "rating": 4.1,
-        "harga": 1050000,
-        "kode_kamar": "ST008"
-    },
-    {
-        "nama_kamar": "Standar Room 9",
-        "rating": 4.2,
-        "harga": 1100000,
-        "kode_kamar": "ST009"
-    },
-    {
-        "nama_kamar": "Standar Room 10",
-        "rating": 4.0,
-        "harga": 1000000,
-        "kode_kamar": "ST010"
-    },
-    {
-        "nama_kamar": "Standar Room 11",
-        "rating": 4.1,
-        "harga": 1050000,
-        "kode_kamar": "ST011"
-    },
-    {
-        "nama_kamar": "Standar Room 12",
-        "rating": 4.2,
-        "harga": 1100000,
-        "kode_kamar": "ST012"
-    },
-    {
-        "nama_kamar": "Standar Room 13",
-        "rating": 4.0,
-        "harga": 1000000,
-        "kode_kamar": "ST013"
-    },
-    {
-        "nama_kamar": "Standar Room 14",
-        "rating": 4.1,
-        "harga": 1050000,
-        "kode_kamar": "ST014"
-    },
-    {
-        "nama_kamar": "Standar Room 15",
-        "rating": 4.2,
-        "harga": 1100000,
-        "kode_kamar": "ST015"
-    },
-    {
-        "nama_kamar": "Standar Room 16",
-        "rating": 4.0,
-        "harga": 1000000,
-        "kode_kamar": "ST016"
-    },
-    {
-        "nama_kamar": "Standar Room 17",
-        "rating": 4.1,
-        "harga": 1050000,
-        "kode_kamar": "ST017"
-    },
-    {
-        "nama_kamar": "Standar Room 18",
-        "rating": 4.2,
-        "harga": 1100000,
-        "kode_kamar": "ST018"
-    },
-    {
-        "nama_kamar": "Standar Room 19",
-        "rating": 4.0,
-        "harga": 1000000,
-        "kode_kamar": "ST019"
-    },
-    {
-        "nama_kamar": "Standar Room 20",
-        "rating": 4.1,
-        "harga": 1050000,
-        "kode_kamar": "ST020"
+        "nama_kamar": "Standard Economy Chamber",
+        "rating": 3.4,
+        "harga": 1750000,
+        "kode_kamar": "STD010",
+        "gambar_kamar": 10
     }
 ]
+
 
 
 
 module.exports = {
     deluxe,
-    executive,
+    suite,
     superior,
     standar
 }
