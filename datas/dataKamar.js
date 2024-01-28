@@ -1,125 +1,102 @@
 deluxe = [
     {
+        "tipe": "deluxe",
         "nama_kamar": "Deluxe Room 1",
-        "rating": 4.5,
-        "harga": 1500000,
-        "kode_kamar": "DX001"
+        "rating": 4.6,
+        "harga": 1600000,
+        "kode_kamar": "DLX001",
+        "gambar": "https://media.istockphoto.com/id/1178809236/id/foto/kamar-tidur-yang-nyaman-dalam-warna-warna-hangat-dengan-lukisan-meja-pouf-dan-kotak-kotak.jpg?s=612x612&w=0&k=20&c=6EZpGr4k4EiaEs1XhubHwcolm2QSnPrxBDrCR3o5JI8=https://media.istockphoto.com/id/1178809236/id/foto/kamar-tidur-yang-nyaman-dalam-warna-warna-hangat-dengan-lukisan-meja-pouf-dan-kotak-kotak.jpg?s=612x612&w=0&k=20&c=6EZpGr4k4EiaEs1XhubHwcolm2QSnPrxBDrCR3o5JI8=https://media.istockphoto.com/id/1178809236/id/foto/kamar-tidur-yang-nyaman-dalam-warna-warna-hangat-dengan-lukisan-meja-pouf-dan-kotak-kotak.jpg?s=612x612&w=0&k=20&c=6EZpGr4k4EiaEs1XhubHwcolm2QSnPrxBDrCR3o5JI8="
     },
     {
+        "tipe": "deluxe",
         "nama_kamar": "Deluxe Room 2",
-        "rating": 4.7,
-        "harga": 1600000,
-        "kode_kamar": "DX002"
+        "rating": 4.8,
+        "harga": 1800000,
+        "kode_kamar": "DLX002",
+        "gambar": 2
     },
     {
+        "tipe": "deluxe",
         "nama_kamar": "Deluxe Room 3",
-        "rating": 4.3,
-        "harga": 1400000,
-        "kode_kamar": "DX003"
+        "rating": 4.7,
+        "harga": 1700000,
+        "kode_kamar": "DLX003",
+        "gambar": 3
     },
     {
+        "tipe": "deluxe",
         "nama_kamar": "Deluxe Room 4",
-        "rating": 4.6,
-        "harga": 1550000,
-        "kode_kamar": "DX004"
-    },
-    {
-        "nama_kamar": "Deluxe Room 5",
-        "rating": 4.8,
-        "harga": 1700000,
-        "kode_kamar": "DX005"
-    },
-    {
-        "nama_kamar": "Deluxe Room 6",
-        "rating": 4.4,
-        "harga": 1450000,
-        "kode_kamar": "DX006"
-    },
-    {
-        "nama_kamar": "Deluxe Room 7",
-        "rating": 4.7,
-        "harga": 1650000,
-        "kode_kamar": "DX007"
-    },
-    {
-        "nama_kamar": "Deluxe Room 8",
-        "rating": 4.6,
-        "harga": 1600000,
-        "kode_kamar": "DX008"
-    },
-    {
-        "nama_kamar": "Deluxe Room 9",
-        "rating": 4.5,
-        "harga": 1550000,
-        "kode_kamar": "DX009"
-    },
-    {
-        "nama_kamar": "Deluxe Room 10",
         "rating": 4.9,
-        "harga": 1750000,
-        "kode_kamar": "DX010"
+        "harga": 2000000,
+        "kode_kamar": "DLX004",
+        "gambar": 4
     },
     {
-        "nama_kamar": "Deluxe Room 11",
-        "rating": 4.3,
-        "harga": 1450000,
-        "kode_kamar": "DX011"
+        "tipe": "deluxe",
+        "nama_kamar": "Deluxe Room 5",
+        "rating": 4.7,
+        "harga": 1900000,
+        "kode_kamar": "DLX005",
+        "gambar": 5
     },
     {
-        "nama_kamar": "Deluxe Room 12",
-        "rating": 4.8,
-        "harga": 1700000,
-        "kode_kamar": "DX012"
-    },
-    {
-        "nama_kamar": "Deluxe Room 13",
+        "tipe": "deluxe",
+        "nama_kamar": "Deluxe Room 6",
         "rating": 4.5,
-        "harga": 1550000,
-        "kode_kamar": "DX013"
-    },
-    {
-        "nama_kamar": "Deluxe Room 14",
-        "rating": 4.6,
-        "harga": 1600000,
-        "kode_kamar": "DX014"
-    },
-    {
-        "nama_kamar": "Deluxe Room 15",
-        "rating": 4.4,
         "harga": 1500000,
-        "kode_kamar": "DX015"
+        "kode_kamar": "DLX006",
+        "gambar": 6
     },
     {
-        "nama_kamar": "Deluxe Room 16",
-        "rating": 4.7,
-        "harga": 1650000,
-        "kode_kamar": "DX016"
-    },
-    {
-        "nama_kamar": "Deluxe Room 17",
-        "rating": 4.5,
-        "harga": 1550000,
-        "kode_kamar": "DX017"
-    },
-    {
-        "nama_kamar": "Deluxe Room 18",
-        "rating": 4.8,
-        "harga": 1700000,
-        "kode_kamar": "DX018"
-    },
-    {
-        "nama_kamar": "Deluxe Room 19",
+        "tipe": "deluxe",
+        "nama_kamar": "Deluxe Room 7",
         "rating": 4.6,
-        "harga": 1600000,
-        "kode_kamar": "DX019"
+        "harga": 1700000,
+        "kode_kamar": "DLX007",
+        "gambar": 7
     },
     {
-        "nama_kamar": "Deluxe Room 20",
+        "tipe": "deluxe",
+        "nama_kamar": "Deluxe Room 8",
+        "rating": 4.8,
+        "harga": 1950000,
+        "kode_kamar": "DLX008",
+        "gambar": 8
+    },
+    {
+        "tipe": "deluxe",
+        "nama_kamar": "Deluxe Room 9",
+        "rating": 4.6,
+        "harga": 1750000,
+        "kode_kamar": "DLX009",
+        "gambar": 9
+    },
+    {
+        "tipe": "deluxe",
+        "nama_kamar": "Deluxe Room 10",
         "rating": 4.7,
-        "harga": 1650000,
-        "kode_kamar": "DX020"
+        "harga": 1850000,
+        "kode_kamar": "DLX010",
+        "gambar": 10
+    },
+    {
+        "tipe": "deluxe",
+        "nama_kamar": "Deluxe Room 11",
+        "rating": 4.8,
+        "harga": 2000000,
+        "kode_kamar": "DLX011",
+        "gambar": 11
+    },
+    {
+        "tipe": "deluxe",
+        "nama_kamar": "Deluxe Room 12",
+        "rating": 4.5,
+        "harga": 1600000,
+        "kode_kamar": "DLX012",
+        "gambar": 12
     }
-]
+];
+
 
 
 
