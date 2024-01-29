@@ -8,11 +8,6 @@ const port = 3000;
 
 app.use(cors())
 
-app.use((req, res) => {
-    console.log('tes')
-    res.status(404).send("404: Page not found");
-});
-
 app.get('/',(req, res) => {
     res.status(200).send('GENERATE DATA KAMAR : /deluxe, /executive, /superior, /standar')
 })
@@ -40,8 +35,6 @@ app.get('/kamar/:nama', (req,res) => {
             name : 'Standar',
             data : dataKamar.standar
         })
-    }else {
-        res.status(404).send('Server ERROR');
     }
 }) 
 
