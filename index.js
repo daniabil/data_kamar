@@ -9,7 +9,7 @@ const port = 3000;
 app.use(cors())
 
 app.get('/',(req, res) => {
-    res.status(200).send('GENERATE DATA KAMAR : /deluxe, /executive, /superior, /standar')
+    res.status(200).send('GENERATE DATA KAMAR . /kamar/: /deluxe, /suite, /superior, /standar')
 })
 
 
