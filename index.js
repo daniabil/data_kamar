@@ -23,7 +23,7 @@ app.get('/kamar/:nama', (req,res) => {
     }else if (nama === 'suite') {
         res.json({
             name : 'Suite',
-            data : dataKamar.executive
+            data : dataKamar.suite
         })
     }else if(nama === 'superior') {
         res.json({
