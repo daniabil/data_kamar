@@ -11,7 +11,7 @@ deluxe = [
         "rating": 4.8,
         "harga": 4200000,
         "kode": "DLX002",
-        "gambar": "https://images.unsplash.com/photo-1631049552057-403cdb8f0658?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3Dhttps://images.unsplash.com/photo-1631049552057-403cdb8f0658?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3Dhttps://images.unsplash.com/photo-1631049552057-403cdb8f0658?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3Dhttps://images.unsplash.com/photo-1631049552057-403cdb8f0658?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        "gambar": "https://images.unsplash.com/photo-1631049552057-403cdb8f0658?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
         "nama": "Premier Deluxe Suite",
@@ -32,7 +32,7 @@ deluxe = [
         "rating": 4.7,
         "harga": 3500000,
         "kode": "DLX005",
-        "gambar": "https://plus.unsplash.com/premium_photo-1661963692705-befe203ba36b?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGJlZHJvb20lMjBob3RlbHxlbnwwfHwwfHx8MA%3D%3D"
+        "gambar": "https://images.unsplash.com/photo-1617099443741-a9b51eabd2b8?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
         "nama": "Deluxe Twin Room",
