@@ -24,20 +24,29 @@ const pool = new Pool({
 });
 
 
-pool.connect((err) => {
-    if(err) throw err
-    console.log("Database Connected")
-})
-
 app.get('/',(req, res) => {
     res.status(200).send('GENERATE DATA KAMAR . /kamar/: /deluxe, /suite, /superior, /standar')
 })
 
-app.post('',(req,res)=>{
-    requestData = req.body;
-    console.log(requestData)
-    res.send("Data Received")
-})
+app.post("/books", async (req, res) => {
+    const { name, author, year } = req.body;
+    console.log("BODY:::", req.body);
+  
+    async function addNewBook(name, author, year) {
+      const client = await pool.connect();
+      try {
+        const insertQuery = `INSERT INTO books (name, author, year) VALUES ($1, $2, $3)`;
+        const values = [name, author, year];
+        await client.query(insertQuery, values);
+      } finally {
+        client.release();
+      }
+    }
+  
+    addNewBook(name, author, year)
+      .then((data) => res.send({ message: "Book added succesfully" }))
+      .catch((err) => console.log(err));
+  });
 
 app.get('/kamar/:nama', (req,res) => {
     const nama = req.params.nama;
