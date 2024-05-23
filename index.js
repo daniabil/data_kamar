@@ -23,21 +23,29 @@ const pool = new Pool({
     },
 });
 
-
 pool.connect((err) => {
     if(err) throw err
     console.log("Database Connected")
 })
 
+app.post('/customers', async (req, res) => {
+    try {
+        const { first_name, last_name, email } = req.body;
+        const newCustomer = await pool.query(
+            'INSERT INTO customers (first_name, last_name, email) VALUES ($1, $2, $3) RETURNING *',
+            [first_name, last_name, email]
+        );
+        res.json(newCustomer.rows[0]);
+    } catch (err) {
+        console.error(err.message);
+        res.status(500).send('Server error');
+    }
+});
+
 app.get('/',(req, res) => {
     res.status(200).send('GENERATE DATA KAMAR . /kamar/: /deluxe, /suite, /superior, /standar')
 })
 
-// app.post('',(req,res)=>{
-//     requestData = req.body;
-//     console.log(requestData)
-//     res.send("Data Received")
-// })
 
 app.get('/kamar/:nama', (req,res) => {
     const nama = req.params.nama;
@@ -64,3 +72,6 @@ app.get('/kamar/:nama', (req,res) => {
     }
 }) 
 
+app.listen(port,()=>{
+    console.log(port)
+})
