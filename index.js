@@ -42,6 +42,17 @@ app.post('/customers', async (req, res) => {
     }
 });
 
+app.get('/customers/:id', async (req, res) => {
+    try {
+        const { id } = req.params;
+        const customer = await pool.query('SELECT * FROM customers WHERE customer_id = $1', [id]);
+        res.status(200).json(customer.rows[0]);
+    } catch (err) {
+        console.error(err.message);
+        res.status(500).send('Server error');
+    }
+});
+
 app.get('/',(req, res) => {
     res.status(200).send('GENERATE DATA KAMAR . /kamar/: /deluxe, /suite, /superior, /standar')
 })
