@@ -28,11 +28,11 @@ pool.connect((err) => {
     console.log("Database Connected")
 })
 
-app.post('/customers', async (req, res) => {
+app.post('/pelanggan', async (req, res) => {
     try {
         const { first_name, last_name, email } = req.body;
         const newCustomer = await pool.query(
-            'INSERT INTO customers (first_name, last_name, email) VALUES ($1, $2, $3) RETURNING *',
+            'INSERT INTO pelanggan (name, address, email, phone_number, in_date, out_date, type) VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING *',
             [first_name, last_name, email]
         );
         res.json(newCustomer.rows[0]);
@@ -42,16 +42,6 @@ app.post('/customers', async (req, res) => {
     }
 });
 
-app.get('/customers/:id', async (req, res) => {
-    try {
-        const { id } = req.params;
-        const customer = await pool.query('SELECT * FROM customers WHERE customer_id = $1', [id]);
-        res.status(200).json(customer.rows[0]);
-    } catch (err) {
-        console.error(err.message);
-        res.status(500).send('Server error');
-    }
-});
 
 app.get('/',(req, res) => {
     res.status(200).send('GENERATE DATA KAMAR . /kamar/: /deluxe, /suite, /superior, /standar')
