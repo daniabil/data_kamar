@@ -30,10 +30,10 @@ pool.connect((err) => {
 
 app.post('/pelanggan', async (req, res) => {
     try {
-        const { first_name, last_name, email } = req.body;
+        const { name, address, email, phone_number, in_date, out_date, type } = req.body;
         const newCustomer = await pool.query(
             'INSERT INTO pelanggan (name, address, email, phone_number, in_date, out_date, type) VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING *',
-            [first_name, last_name, email]
+            [name, address, email, phone_number, in_date, out_date, type]
         );
         res.json(newCustomer.rows[0]);
     } catch (err) {
